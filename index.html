@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Portfolio</title>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+    crossorigin="anonymous">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#me">About</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!--Header-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1 class="display-4">Tyler Rector</h1>
+          <p class="lead">Digital Media/Web developer</p>
+        </div>
+      </div>
+      <section id="portfolio" class="section-padding">
+        <div class="container text-center">
+            <br>
+            <br>
+            <h1 class="mb-60"><u>My Portfolio</u></h1>
+        </div>
+
+            <div class="rows portfolio-grid gallery-popup">
+<!--ABOUT-->
+    <section id="me">
+        <br>
+        <h2 style="text-align: center">About Me</h2>
+        <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                Hello, my name is Tyler Rector, thanks for viewing my page! I am a seinor at Wabash College studing Art & Digital Media. During the winter of 2020-2021, I enrolled in ElevenFifty Academy's Winter Coding Experience Bootcamp to help further my understanding of how media is created. 
+            </div>
+            <div class="col-4">
+                My hobbies include: drawing/rendering, 3D modeling, Adobe Suite, coding, creative writing, teaching/coaching, playing video games, and most activites that involve sports or physical movement of some sort. 
+            </div>
+            <div class="col-4">
+                Below are a few projects that I worked on during our 5 week bootbamp at ElevenFifty Academy. The following languages were used: HTML, CSS, and JavaScript. You can also find my Github and LinkedIn links in the footer at the bottom of the page.
+            </div>
+        </div>
+
+    </div>
+    </section>
+    <br>
+
+
+<!--Projects-->
+    <!-- Portfolio Item PokeDex -->
+        <h2 style="text-align: center">Projects</h2>
+                    <div class="portfolio-box">
+                        <a href="https://tjr-pokedexapi-897e0.web.app/" title="Poke API">
+                            <div class="portfolio-image-wrap">
+                                <img src="assets/Pokemon-GO-GEN-4-Pokedex.png" alt="" />
+                            </div>
+                            <div class="portfolio-caption-mask">
+                                <div class="portfolio-caption-text">
+                                    <div class="portfolio-caption-tb-cell">
+                                        <h5 class="alt-title">Pokemon PokeDex API</h5>
+                                        <p>Pulls from pokeapi.co API</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    <!-- End Portfolio Item -->
+
+    <!-- Portfolio Item CSS Creature -->
+                <div class="portfolio-item htmlcss text-center">
+                    <div class="portfolio-box">
+                        <a href="https://codepen.io/TRECTOR21/pen/abmOXMm" title="CSS Creature">
+                            <div class="portfolio-image-wrap">
+                                <img src="assets/monster.png" alt="" />
+                            </div>
+                            <div class="portfolio-caption-mask">
+                                <div class="portfolio-caption-text">
+                                    <div class="portfolio-caption-tb-cell">
+                                        <h5 class="alt-title">CSS Monster</h5>
+                                        <p>HTML/CSS Coded Monster</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    <!-- End Portfolio Item -->
+
+    <!-- Portfolio Item Static Layout-->
+                <div class="portfolio-item htmlcss text-right">
+                    <div class="portfolio-box">
+                        <a href="https://trector21.github.io/trector21.github.io-StaticLayout/" title="Static Layout">
+                            <div class="portfolio-image-wrap">
+                                <img src="assets/WW_Hero_Image.jpg" alt="" />
+                            </div>
+                            <div class="portfolio-caption-mask">
+                                <div class="portfolio-caption-text">
+                                    <div class="portfolio-caption-tb-cell">
+                                        <h5 class="alt-title">Wizarding World Static Layout</h5>
+                                        <p>Recreation of Wizarding World.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> 
+    <!-- End Portfolio Item -->
+
+            </div>
+
+        </div>
+        
+
+    </section>
+    <!-- End Projects Section -->
+
+<!--CONTACT-->
+      <section id="contact">
+        <div class="container">
+            <br>
+            <br>
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/trector0823@gmail.com" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black" id="Sendmessage">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+    <footer id="footer" class="footer gray-bg">
+        <div class="container text-center">
+            <ul class="social mb-60 wow fadeInUp" data-wow-duration="1.5s">
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/tylerrector/">Linkedin<i class="fab fa-linkedin" id="linkedIn"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/trector21">GitHub<i class="fab fa-github" id="gitHub"></i></a>
+                </li>
+            </ul>
+            <p class="copyright">
+                <a class="copy-link scroll-top" href=""> Tyler Rector 2021</a><br />
+                </a>
+            </p>
+        </div>
+    </footer>
+<!-- End Footer Section -->
+
+</div>
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

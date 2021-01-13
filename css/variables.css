@@ -1,0 +1,5 @@
+:root {    /*grabs our html doc as the root */
+    --brown: #6d6656;
+    --grey: #53565a;
+    --black: #272727;
+}

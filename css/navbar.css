@@ -1,0 +1,11 @@
+.navbar {
+    background-color: rgba(12, 8, 8, 0.836);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    color: green;
+}

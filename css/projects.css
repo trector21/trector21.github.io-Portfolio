@@ -1,0 +1,68 @@
+#projects {
+        background-color: grey;
+        padding: 45px;
+        font-family: 'Open Sans Condensed', sans-serif;
+}
+img {
+        width: 500px;
+        height: 300px;
+}
+.portfolio-box {
+        position: relative;
+        overflow: hidden;
+}
+    
+.portfolio-box a.porfolio-popup {
+            display: block;
+}
+.portfolio-box .portfolio-caption-mask {
+        background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+        transition: all 0.5s ease-in-out 0s;
+        -o-transition: all 0.5s ease-in-out 0s;
+        -moz-transition: all 0.5s ease-in-out 0s;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        z-index: 9;
+}
+.portfolio-box:hover .portfolio-caption-mask {
+        opacity: 1;
+        visibility: visible;
+}
+.portfolio-box .portfolio-caption-mask .portfolio-caption-text {
+        bottom: -60px;
+        left: 0;
+        opacity: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: absolute;
+        text-align: left;
+        transition: all 0.5s ease-in-out 0s;
+}
+.portfolio-box:hover .portfolio-caption-mask .portfolio-caption-text {
+        bottom: 30px;
+        opacity: 1;
+        color: white;
+}
+.portfolio-box .portfolio-caption-mask h1, .portfolio-box .portfolio-caption-mask h2, .portfolio-box .portfolio-caption-mask h3, .portfolio-box .portfolio-caption-mask h4, .portfolio-box .portfolio-caption-mask h5, .portfolio-box .portfolio-caption-mask h6 {
+        color: #fff;
+        margin-bottom: 5px;
+}
+    .portfolio-box .portfolio-caption-mask p {
+        margin-bottom: 0px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+}
+    
+    
+    
+    
+      

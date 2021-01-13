@@ -1,0 +1,11 @@
+.display-4 {
+    font-weight: 700;
+    
+}
+
+.jumbotron {
+    background: url("../assets/outerworld.png");
+    background-size: cover;
+    height: 120vh;
+    color: white;
+}
